@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "TT声音模块",
+		"en": "TT Voice Module"
+	},
+	"description": {
+		"zh-cn": "利用一线串口让JQ8400播放声音",
+		"en": "Single line serial port control JQ8400 play"
+	},
+	"author": "Sydmdhm",
+	"email": "1580024574@qq.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "TTJQ8400",
+	"platform": ["win", "mac", "web"],
+    "version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.2",
+			"board": ["telloesp32"],
+			"main": "main.ts"
+		}
+	}
+}
